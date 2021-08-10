@@ -13,11 +13,11 @@ function askName(){
 
   var randomNumber1=1+Math.floor(Math.random()*6);
   //alert(randomNumber1);
-  document.querySelectorAll("img")[0].setAttribute("src","images/dice"+randomNumber1+".png");
+  document.querySelectorAll("img")[0].setAttribute("src","dice"+randomNumber1+".png");
 
   var randomNumber2=1+Math.floor(Math.random()*6);
   //alert(randomNumber2);
-  document.querySelectorAll("img")[1].setAttribute("src","images/dice"+randomNumber2+".png");
+  document.querySelectorAll("img")[1].setAttribute("src","dice"+randomNumber2+".png");
 
   if(randomNumber1 > randomNumber2)
   {
